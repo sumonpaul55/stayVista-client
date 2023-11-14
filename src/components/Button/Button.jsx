@@ -1,4 +1,5 @@
 /* eslint-disable react/prop-types */
+import React from "react"
 const Button = ({ label, onClick, disabled, outline, small, icon: Icon }) => {
   return (
     <button

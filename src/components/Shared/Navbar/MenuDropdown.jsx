@@ -3,6 +3,8 @@ import { useState } from 'react'
 import { Link } from 'react-router-dom'
 import useAuth from '../../../hooks/useAuth'
 import avatarImg from '../../../assets/images/placeholder.jpg'
+import React from 'react'
+
 
 const MenuDropdown = () => {
   const [isOpen, setIsOpen] = useState(false)

@@ -1,4 +1,4 @@
-/* eslint-disable react/prop-types */
+import React from 'react'
 import { ScaleLoader } from 'react-spinners'
 
 const Loader = ({ smallHeight }) => {
